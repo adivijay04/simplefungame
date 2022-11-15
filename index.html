@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ROCK PAPER SCISSOR</h1>
+      <div class="game-btn">
+        <img src="./cartoon-rock.png" alt="rock_image" id="rock" onclick="check('rock');">
+        <img src="./paper-image.jpg" alt="paper_image" id="paper" onclick="check('paper');">
+        <img src="./scissors.jpg" alt="scis_image" id="scissor" onclick="check('scissor');">
+      </div>
+      <div class="result">
+        <h2>Player: <span id="player"></span></h2>
+        <h2>Computer: <span id="computer"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js" charset="utf-8"></script>
+</html>
